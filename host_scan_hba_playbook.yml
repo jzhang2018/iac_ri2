@@ -1,0 +1,10 @@
+---
+
+- name: Scan host play
+  hosts: host_scan_hba
+  connection: local
+  gather_facts: false
+
+  roles:
+    - host_scan_hba
+
